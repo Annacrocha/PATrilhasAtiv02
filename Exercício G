@@ -15,7 +15,7 @@ namespace Atividade_2_c_
 			int resultado = numero2 - numero1;
 			
 			// disable once FormatStringProblem0
-			Console.WriteLine("A subtração do segundo pelo primeiro é: ", + resultado);
+			Console.WriteLine("A subtração do segundo pelo primeiro é: " + resultado);
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
