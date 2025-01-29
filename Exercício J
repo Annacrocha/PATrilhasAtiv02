@@ -1,0 +1,20 @@
+using System;
+
+namespace Atividade_2_c_
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Divisão por dois");
+			Console.WriteLine("Insira um número: ");
+			int numero1 = Convert.ToInt32(Console.ReadLine());
+			
+			int resultdiv = numero1 / 2;
+			
+			Console.WriteLine("O número dividido por 2 é: " + resultdiv);
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
