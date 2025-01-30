@@ -1,1 +1,19 @@
+using System;
 
+namespace atividade
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Raiz quadrada de um número");
+			Console.WriteLine("Digite um número:");
+			double numero = double.Parse (Console.ReadLine());
+			
+			Console.WriteLine("Sua raiz quadrada é: " + Math.Sqrt(numero));
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
